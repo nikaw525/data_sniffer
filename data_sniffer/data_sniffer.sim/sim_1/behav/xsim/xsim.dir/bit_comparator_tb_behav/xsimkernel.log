@@ -1,0 +1,4 @@
+Running: xsim.dir/bit_comparator_tb_behav/xsimk.exe -simmode gui -wdb bit_comparator_tb_behav.wdb -simrunnum 0 -socket 54136
+Design successfully loaded
+Design Loading Memory Usage: 6184 KB (Peak: 6184 KB)
+Design Loading CPU Usage: 62 ms

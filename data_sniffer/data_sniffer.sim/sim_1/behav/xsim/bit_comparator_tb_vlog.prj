@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../data_sniffer.srcs/sources_1/new/8_bit_comparator.v" \
+"../../../../data_sniffer.srcs/sources_1/new/bit_comparator_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
