@@ -386,3 +386,5 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sourc
 selectCodeEditor("8_bit_comparator.v", 437, 394); // cl (w, cp)
 // Elapsed time: 13 seconds
 selectCodeEditor("8_bit_comparator.v", 198, 176); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("8_bit_comparator.v", 801, 361); // cl (w, cp)
