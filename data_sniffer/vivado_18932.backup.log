@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu May 27 18:07:50 2021
+# Process ID: 18932
+# Current directory: C:/Users/rzesz/Desktop/Coding/FPGA/data_sniffer/data_sniffer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17768 C:\Users\rzesz\Desktop\Coding\FPGA\data_sniffer\data_sniffer\data_sniffer.xpr
+# Log file: C:/Users/rzesz/Desktop/Coding/FPGA/data_sniffer/data_sniffer/vivado.log
+# Journal file: C:/Users/rzesz/Desktop/Coding/FPGA/data_sniffer/data_sniffer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rzesz/Desktop/Coding/FPGA/data_sniffer/data_sniffer/data_sniffer.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 675.449 ; gain = 75.902
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 27 21:06:15 2021...
