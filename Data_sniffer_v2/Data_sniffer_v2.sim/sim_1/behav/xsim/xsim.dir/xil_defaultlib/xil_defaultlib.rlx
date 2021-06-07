@@ -4,8 +4,8 @@ Dec  7 2018
 00:33:28
 C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
 C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sim_1/new/NumberChecker_tb.v,1622977945,verilog,,,,NumberChecker_tb,,,,,,,,
-C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sim_1/new/StateMachine_tb.v,1622982325,verilog,,,,StateMachine_tb,,,,,,,,
+C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sim_1/new/StateMachine_tb.v,1623017477,verilog,,,,StateMachine_tb,,,,,,,,
 C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sim_1/new/memory_tb.v,1622929549,verilog,,,,memory_tb,,,,,,,,
-C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/NumberChecker.v,1622930186,verilog,,C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v,,NumberChecker,,,,,,,,
-C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v,1622979603,systemVerilog,,,,StateMachine,,,,,,,,
-C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v,1622928290,verilog,,C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sim_1/new/NumberChecker_tb.v,,memory,,,,,,,,
+C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/NumberChecker.v,1623017858,verilog,,C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v,,NumberChecker,,,,,,,,
+C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v,1623018180,systemVerilog,,,,StateMachine,,,,,,,,
+C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v,1622928290,verilog,,C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2/Data_sniffer_v2.srcs/sim_1/new/StateMachine_tb.v,,memory,,,,,,,,

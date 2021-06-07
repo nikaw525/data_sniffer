@@ -45,26 +45,21 @@ NumberChecker UU(
     is_number
 );
 
-//Clock generator
-initial
-    clock <= 1'b1;
-always
-    #5 clock <= ~clock;
 
 //Reset signal
 initial
 begin
-     address <= 0;
      reset <= 1'b1;
      #5 reset <= 1'b0;
 end 
 
-always@(posedge clock)
-begin
-    #10
-    $display("Char = %h, is_digit = %h, index = %d", char_out, is_number, index);
-    address <= address + 1;
-end
-
+initial begin
+   address = 0;
+   #10 $monitor ("address = %h, data = %h", address, data);
+   for (i = 0; i < 99; i = i +1 )begin
+        # 5 address = i;
+        $display("%h", data); 
+   end
+ end
 
 endmodule

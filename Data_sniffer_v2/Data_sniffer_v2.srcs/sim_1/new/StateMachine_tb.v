@@ -23,40 +23,47 @@
 module StateMachine_tb();
 
 reg clock, reset;
-wire is_number;
 wire [7:0] char_in;
 
+wire state;
 reg [7:0] address;
- 
+
 integer i;
+
 
 memory U(
 address , // Address input
 char_in    , // Data output
 );
 
+
 StateMachine UU(
     clock,
     reset,
-    char_in
+    char_in,
+    state
 );
 
-//Clock generator
-initial
-    clock <= 1'b1;
 always
-    #5 clock <= ~clock;
+begin
+ clock = 1'b0;
+ #5; // low for 5 * timescale = 5 ns
+ clock = 1'b1;
+ #5; // high for 5 * timescale = 5 ns
+end
 
-//Reset signal
+
 initial
 begin
-     reset <= 1'b1;
-     #5 reset <= 1'b0;
+    reset <= 1'b0;
 end 
 
-always@(posedge clock)
-begin
-    #10
-    address <= address + 1;
-end
+initial begin
+   address = 0;
+   for (i = 0; i < 99; i = i +1 )begin
+       #10 address = i;
+   end
+ end
+
+ 
 endmodule

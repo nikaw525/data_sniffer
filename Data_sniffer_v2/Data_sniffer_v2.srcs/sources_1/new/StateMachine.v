@@ -21,15 +21,16 @@
 module StateMachine(
     input wire clk,
     input wire reset,
-    input wire [7:0] input_char
+    input wire [7:0] input_char, 
+    output reg state_out
     );
     
-integer counter = 0;
-integer special_char_counter = 0;
+integer counter = 1;
 
 reg [7:0] output_char;
 reg [31:0] index;
 reg is_number;
+reg is_special;
 
 reg [31:0] start_index;
 
@@ -38,19 +39,23 @@ NumberChecker num_1 (.clk(clk),
                       .character_in(input_char),
                       .character_out(output_char),
                       .index(index),
-                      .is_number(is_number)
+                      .is_number(is_number),
+                      .is_special_char(is_special)
                       );
+
+assign state_out = state;
+
 //FSM
 enum {IDLE=0, NUMBER_CHECK} state;
 
-    always_ff @(posedge clk) begin: fsm
+always_ff @(posedge clk) begin: fsm
         case(state)
                 IDLE: begin
                     if(reset == 1'b1) begin
                         state <= IDLE;
                     end else begin
                         if(is_number == 1'b1) begin
-                            $display("Number = %h, index = %h",character_out,  index);
+                            $display("IDLE: Number = %h, index = %d, is_number = %h, counter = %d",output_char,  index, is_number, counter);
                             start_index <= index;
                             counter <= counter + 1;
                             state <= NUMBER_CHECK;
@@ -59,9 +64,12 @@ enum {IDLE=0, NUMBER_CHECK} state;
                  end
                  NUMBER_CHECK: begin
                    if(is_number == 1'b1) begin
-                        $display("Number = %h, index = %h",character_out,  index);
+                        $display("CHECKER: Number = %h, index = %d, is_number = %h, counter = %d",output_char,  index, is_number, counter);
                         counter <= counter + 1;
+                    end else if (is_special == 1'b1) begin
+                        $display("CHECKER: Special char = %h, index = %d, is_number = %h, counter = %d",output_char,  index, is_number, counter);
                     end else begin
+                        counter = 1;
                         state <= IDLE;
                     end   
                 end 
