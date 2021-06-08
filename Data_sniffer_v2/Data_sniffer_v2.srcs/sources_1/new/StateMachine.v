@@ -75,19 +75,25 @@ always_ff @(posedge clk) begin: fsm
                  end
                  
                  NUMBER_CHECK: begin  
-                    if(is_other == 1'b1 & counter == 10) begin
+                    if(is_other == 1'b1 & counter == 7) begin   //123456 
+                        //indeks_nr
+                        $display("Indeks number, index = %d", index);
+                        counter = 1;
+                        state <= IDLE;
+                    end  
+                    if(is_other == 1'b1 & counter == 10) begin  //123456789
                         //phone_nr
                         $display("Phone number, index = %d", index);
                         counter = 1;
                         state <= IDLE;
                     end                                   
-                    else if(is_other == 1'b1 & counter == 12) begin
+                    else if(is_other == 1'b1 & counter == 12) begin //45826896441
                         //pesel
-                        $display("Pesel number, index = %d", index);
+                        $display("Pesel number, index = %d", index); 
                         counter = 1;
                         state <= IDLE;                        
                     end
-                    else if(is_other == 1'b1 & counter == 27) begin
+                    else if(is_other == 1'b1 & counter == 27) begin //87101013970055002221000000
                         //account_nr
                         $display("Account number, index = %d", index);
                         counter = 1;
@@ -119,8 +125,8 @@ always_ff @(posedge clk) begin: fsm
                     | counter == 11 | counter == 12 | counter == 14 | counter == 15 | counter == 16 | counter == 17
                     | counter == 19 | counter == 20 | counter == 21 | counter == 22 | counter == 24 | counter == 25  
                     | counter == 26 | counter == 27 | counter == 29 | counter == 30 | counter == 31 | counter == 32) 
-                    | (is_space == 1'b1 & (counter == 8 | counter == 13 | counter == 18 | counter ==  23 | counter == 28)))begin
-                        counter <= counter + 1;
+                    | (is_space == 1'b1 & (counter == 8 | counter == 13 | counter == 18 | counter ==  23 | counter == 28)))begin 
+                        counter <= counter + 1; //87 1010 1397 0055 0022 2100 0000
                         state <= ACCOUNT_NR;                    
                     end
                     else if(counter == 33) begin
@@ -137,7 +143,7 @@ always_ff @(posedge clk) begin: fsm
                 
                 PHONE_NR_2: begin
                     if((is_number == 1'b1 & (counter == 5 | counter == 6 | counter == 7 | counter == 9 | counter == 10 | counter == 11))
-                    || ((is_dash == 1'b1 | is_space == 1'b1) & (counter == 4 | counter == 8)))begin
+                    || ((is_dash == 1'b1 | is_space == 1'b1) & (counter == 4 | counter == 8)))begin //123 123 456 or 123-456-789
                         counter <= counter + 1;
                         state <= PHONE_NR_2;
                     end
@@ -151,6 +157,37 @@ always_ff @(posedge clk) begin: fsm
                         counter = 1;
                         state <= IDLE;
                     end  
+                end
+                
+                PHONE_NR_1: begin
+                    if(is_number == 1'b1  
+                    & (counter == 2 | counter == 3 | counter == 4 | counter == 5 | counter == 6
+                    | counter == 7 | counter == 8 | counter == 9 | counter == 10 | counter == 11 
+                    | counter == 12 | counter == 13))begin  //+48 123 456 789
+                        counter <= counter + 1;
+                        state <= PHONE_NR_1;
+                    end
+                    else if(counter == 13) begin
+                        //phone_nr
+                        $display("Phone number, index = %d", index);
+                        state <= IDLE;
+                        counter = 1;
+                    end
+                    else if((is_number == 1'b1 
+                    & (counter == 2 | counter == 3 | counter == 5 | counter == 6 | counter == 7 | counter == 9 
+                    | counter == 10 | counter == 11 | counter == 13 | counter == 14 | counter == 15))
+                    | (is_space == 1'b1 & (counter == 4 | counter == 8 | counter == 12)))begin //+48123456789
+                    end
+                    else if(counter == 16) begin
+                        //phone_nr
+                        $display("Phone number, index = %d", index);
+                        state <= IDLE;
+                        counter = 1;
+                    end
+                    else begin
+                        counter = 1;
+                        state <= IDLE;
+                    end 
                 end
            endcase
  end: fsm

@@ -607,3 +607,270 @@ remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sni
 run all
 run all
 step
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 123
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 145
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 163
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 78
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 60
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+run all
+run all
+run all
+run all
+run all
+step
+step
+step
+step
+step
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+step
+step
+step
+run all
+step
+step
+step
+run all
+step
+step
+step
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 60
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 78
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 123
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 145
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 163
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 123
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 132
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 139
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+relaunch_sim
+run all
+step
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all

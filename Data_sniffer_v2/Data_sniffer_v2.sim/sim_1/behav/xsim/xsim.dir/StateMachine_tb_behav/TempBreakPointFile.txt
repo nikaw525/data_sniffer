@@ -1,3 +1,4 @@
 Breakpoint File Version 1.0
-146 true D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v
-128 true D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v
+123 true D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v
+132 true D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v
+139 true D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v

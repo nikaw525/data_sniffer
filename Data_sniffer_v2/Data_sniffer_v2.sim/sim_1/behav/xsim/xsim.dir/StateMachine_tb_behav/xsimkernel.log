@@ -1,4 +1,4 @@
-Running: xsim.dir/StateMachine_tb_behav/xsimk.exe -simmode gui -wdb StateMachine_tb_behav.wdb -simrunnum 0 -socket 51462
+Running: xsim.dir/StateMachine_tb_behav/xsimk.exe -simmode gui -wdb StateMachine_tb_behav.wdb -simrunnum 0 -socket 63884
 Design successfully loaded
-Design Loading Memory Usage: 5760 KB (Peak: 5760 KB)
-Design Loading CPU Usage: 46 ms
+Design Loading Memory Usage: 5764 KB (Peak: 5764 KB)
+Design Loading CPU Usage: 15 ms
