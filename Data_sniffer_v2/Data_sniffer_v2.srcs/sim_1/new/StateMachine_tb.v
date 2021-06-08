@@ -60,7 +60,7 @@ end
 
 initial begin
    address = 0;
-   for (i = 0; i < 99; i = i +1 )begin
+   for (i = 0; i < 1000; i = i +1 )begin
        #10 address = i;
    end
  end

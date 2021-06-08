@@ -61,7 +61,7 @@ always_ff @(posedge clk) begin: fsm
                         state <= IDLE;
                     end else begin
                         if(is_number == 1'b1) begin
-                            $display("IDLE: Number = %h, index = %d, is_number = %h, counter = %d",output_char,  index, is_number, counter);
+                            //$display("IDLE: Number = %h, index = %d, is_number = %h, counter = %d",output_char,  index, is_number, counter);
                             start_index <= index; 
                             counter <= counter + 1;                           
                             state <= NUMBER_CHECK;
@@ -70,7 +70,7 @@ always_ff @(posedge clk) begin: fsm
                             start_index <= index;
                             counter <= counter + 1;
                             state <= PHONE_NR_1;
-                        end                        
+                        end                    
                     end
                  end
                  
@@ -97,20 +97,19 @@ always_ff @(posedge clk) begin: fsm
                         //account_nr
                         $display("Account number, index = %d", index);
                         counter = 1;
-                        state <= IDLE; 
-                        
-                    end
+                        state <= IDLE;                         
+                    end                     
                     else if((is_space == 1'b1 | is_dash == 1'b1) & counter == 4) begin                            
-                            counter <= counter + 1;
-                            state <= PHONE_NR_2;
+                        counter <= counter + 1;
+                        state <= PHONE_NR_2;
                     end
                     else if(is_space == 1'b1 & counter == 3) begin
                         state <= ACCOUNT_NR;
                         counter <= counter + 1;
-                        $display("CHECKER: Special char = %h, index = %d, is_number = %h, counter = %d",output_char,  index, is_number, counter);
+                        //$display("CHECKER: Special char = %h, index = %d, is_number = %h, counter = %d",output_char,  index, is_number, counter);
                     end                    
                     else if(is_number == 1'b1) begin
-                        $display("CHECKER: Number = %h, index = %d, is_number = %h, counter = %d",output_char,  index, is_number, counter);
+                        //$display("CHECKER: Number = %h, index = %d, is_number = %h, counter = %d",output_char,  index, is_number, counter);
                         counter <= counter + 1;
                     end
                     else begin
@@ -177,6 +176,8 @@ always_ff @(posedge clk) begin: fsm
                     & (counter == 2 | counter == 3 | counter == 5 | counter == 6 | counter == 7 | counter == 9 
                     | counter == 10 | counter == 11 | counter == 13 | counter == 14 | counter == 15))
                     | (is_space == 1'b1 & (counter == 4 | counter == 8 | counter == 12)))begin //+48123456789
+                        counter <= counter + 1;
+                        state <= PHONE_NR_1;
                     end
                     else if(counter == 16) begin
                         //phone_nr
