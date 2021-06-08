@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/NumberChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NumberChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+WARNING: [VRFC 10-2379] empty port in module declaration [D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v:44]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2458] undeclared symbol is_space, assumed default net type wire [D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v:45]
+WARNING: [VRFC 10-3380] identifier 'state' is used before its declaration [D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v:50]

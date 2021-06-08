@@ -1,0 +1,1073 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun  8 16:43:15 2021
+# Process ID: 7148
+# Current directory: D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1236 D:\Na_uczelnie\Magisterka\Semestr_1\SDUP\Project\repo\Data_sniffer_v2\Data_sniffer_v2.xpr
+# Log file: D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/vivado.log
+# Journal file: D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/rzesz/Desktop/Coding/FPGA/Data_sniffer_v2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:01:03 . Memory (MB): peak = 631.043 ; gain = 70.305
+update_compile_order -fileset sources_1
+set_property top memory_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'memory_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj memory_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+WARNING: [VRFC 10-2379] empty port in module declaration [D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v:44]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sim_1/new/memory_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 665.664 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '15' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a98c70b79539466491076664c6d779e5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot memory_tb_behav xil_defaultlib.memory_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.memory_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot memory_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/memory_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Jun  8 16:50:48 2021...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:43 . Memory (MB): peak = 665.664 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '42' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "memory_tb_behav -key {Behavioral:sim_1:Functional:memory_tb} -tclbatch {memory_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source memory_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File C:\Users\rzesz\Desktop\Coding\FPGA\Data_sniffer_v2\Data_sniffer_v2.ip_user_files\ASCII_hex.dat referenced on D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v at line 55 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+address = 00, data = xx
+xx
+xx
+address = 01, data = xx
+xx
+address = 02, data = xx
+xx
+address = 03, data = xx
+xx
+address = 04, data = xx
+xx
+address = 05, data = xx
+xx
+address = 06, data = xx
+xx
+address = 07, data = xx
+xx
+address = 08, data = xx
+xx
+address = 09, data = xx
+xx
+address = 0a, data = xx
+xx
+address = 0b, data = xx
+xx
+address = 0c, data = xx
+xx
+address = 0d, data = xx
+xx
+address = 0e, data = xx
+xx
+address = 0f, data = xx
+xx
+address = 10, data = xx
+xx
+address = 11, data = xx
+xx
+address = 12, data = xx
+xx
+address = 13, data = xx
+xx
+address = 14, data = xx
+xx
+address = 15, data = xx
+xx
+address = 16, data = xx
+xx
+address = 17, data = xx
+xx
+address = 18, data = xx
+xx
+address = 19, data = xx
+xx
+address = 1a, data = xx
+xx
+address = 1b, data = xx
+xx
+address = 1c, data = xx
+xx
+address = 1d, data = xx
+xx
+address = 1e, data = xx
+xx
+address = 1f, data = xx
+xx
+address = 20, data = xx
+xx
+address = 21, data = xx
+xx
+address = 22, data = xx
+xx
+address = 23, data = xx
+xx
+address = 24, data = xx
+xx
+address = 25, data = xx
+xx
+address = 26, data = xx
+xx
+address = 27, data = xx
+xx
+address = 28, data = xx
+xx
+address = 29, data = xx
+xx
+address = 2a, data = xx
+xx
+address = 2b, data = xx
+xx
+address = 2c, data = xx
+xx
+address = 2d, data = xx
+xx
+address = 2e, data = xx
+xx
+address = 2f, data = xx
+xx
+address = 30, data = xx
+xx
+address = 31, data = xx
+xx
+address = 32, data = xx
+xx
+address = 33, data = xx
+xx
+address = 34, data = xx
+xx
+address = 35, data = xx
+xx
+address = 36, data = xx
+xx
+address = 37, data = xx
+xx
+address = 38, data = xx
+xx
+address = 39, data = xx
+xx
+address = 3a, data = xx
+xx
+address = 3b, data = xx
+xx
+address = 3c, data = xx
+xx
+address = 3d, data = xx
+xx
+address = 3e, data = xx
+xx
+address = 3f, data = xx
+xx
+address = 40, data = xx
+xx
+address = 41, data = xx
+xx
+address = 42, data = xx
+xx
+address = 43, data = xx
+xx
+address = 44, data = xx
+xx
+address = 45, data = xx
+xx
+address = 46, data = xx
+xx
+address = 47, data = xx
+xx
+address = 48, data = xx
+xx
+address = 49, data = xx
+xx
+address = 4a, data = xx
+xx
+address = 4b, data = xx
+xx
+address = 4c, data = xx
+xx
+address = 4d, data = xx
+xx
+address = 4e, data = xx
+xx
+address = 4f, data = xx
+xx
+address = 50, data = xx
+xx
+address = 51, data = xx
+xx
+address = 52, data = xx
+xx
+address = 53, data = xx
+xx
+address = 54, data = xx
+xx
+address = 55, data = xx
+xx
+address = 56, data = xx
+xx
+address = 57, data = xx
+xx
+address = 58, data = xx
+xx
+address = 59, data = xx
+xx
+address = 5a, data = xx
+xx
+address = 5b, data = xx
+xx
+address = 5c, data = xx
+xx
+address = 5d, data = xx
+xx
+address = 5e, data = xx
+xx
+address = 5f, data = xx
+xx
+address = 60, data = xx
+xx
+address = 61, data = xx
+xx
+address = 62, data = xx
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 707.562 ; gain = 41.898
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'memory_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:01:12 . Memory (MB): peak = 707.562 ; gain = 41.898
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'memory_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj memory_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+WARNING: [VRFC 10-2379] empty port in module declaration [D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v:44]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sim_1/new/memory_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a98c70b79539466491076664c6d779e5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot memory_tb_behav xil_defaultlib.memory_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.memory_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot memory_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "memory_tb_behav -key {Behavioral:sim_1:Functional:memory_tb} -tclbatch {memory_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source memory_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File ASCII_hex.dat referenced on D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v at line 55 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+address = 00, data = xx
+xx
+xx
+address = 01, data = xx
+xx
+address = 02, data = xx
+xx
+address = 03, data = xx
+xx
+address = 04, data = xx
+xx
+address = 05, data = xx
+xx
+address = 06, data = xx
+xx
+address = 07, data = xx
+xx
+address = 08, data = xx
+xx
+address = 09, data = xx
+xx
+address = 0a, data = xx
+xx
+address = 0b, data = xx
+xx
+address = 0c, data = xx
+xx
+address = 0d, data = xx
+xx
+address = 0e, data = xx
+xx
+address = 0f, data = xx
+xx
+address = 10, data = xx
+xx
+address = 11, data = xx
+xx
+address = 12, data = xx
+xx
+address = 13, data = xx
+xx
+address = 14, data = xx
+xx
+address = 15, data = xx
+xx
+address = 16, data = xx
+xx
+address = 17, data = xx
+xx
+address = 18, data = xx
+xx
+address = 19, data = xx
+xx
+address = 1a, data = xx
+xx
+address = 1b, data = xx
+xx
+address = 1c, data = xx
+xx
+address = 1d, data = xx
+xx
+address = 1e, data = xx
+xx
+address = 1f, data = xx
+xx
+address = 20, data = xx
+xx
+address = 21, data = xx
+xx
+address = 22, data = xx
+xx
+address = 23, data = xx
+xx
+address = 24, data = xx
+xx
+address = 25, data = xx
+xx
+address = 26, data = xx
+xx
+address = 27, data = xx
+xx
+address = 28, data = xx
+xx
+address = 29, data = xx
+xx
+address = 2a, data = xx
+xx
+address = 2b, data = xx
+xx
+address = 2c, data = xx
+xx
+address = 2d, data = xx
+xx
+address = 2e, data = xx
+xx
+address = 2f, data = xx
+xx
+address = 30, data = xx
+xx
+address = 31, data = xx
+xx
+address = 32, data = xx
+xx
+address = 33, data = xx
+xx
+address = 34, data = xx
+xx
+address = 35, data = xx
+xx
+address = 36, data = xx
+xx
+address = 37, data = xx
+xx
+address = 38, data = xx
+xx
+address = 39, data = xx
+xx
+address = 3a, data = xx
+xx
+address = 3b, data = xx
+xx
+address = 3c, data = xx
+xx
+address = 3d, data = xx
+xx
+address = 3e, data = xx
+xx
+address = 3f, data = xx
+xx
+address = 40, data = xx
+xx
+address = 41, data = xx
+xx
+address = 42, data = xx
+xx
+address = 43, data = xx
+xx
+address = 44, data = xx
+xx
+address = 45, data = xx
+xx
+address = 46, data = xx
+xx
+address = 47, data = xx
+xx
+address = 48, data = xx
+xx
+address = 49, data = xx
+xx
+address = 4a, data = xx
+xx
+address = 4b, data = xx
+xx
+address = 4c, data = xx
+xx
+address = 4d, data = xx
+xx
+address = 4e, data = xx
+xx
+address = 4f, data = xx
+xx
+address = 50, data = xx
+xx
+address = 51, data = xx
+xx
+address = 52, data = xx
+xx
+address = 53, data = xx
+xx
+address = 54, data = xx
+xx
+address = 55, data = xx
+xx
+address = 56, data = xx
+xx
+address = 57, data = xx
+xx
+address = 58, data = xx
+xx
+address = 59, data = xx
+xx
+address = 5a, data = xx
+xx
+address = 5b, data = xx
+xx
+address = 5c, data = xx
+xx
+address = 5d, data = xx
+xx
+address = 5e, data = xx
+xx
+address = 5f, data = xx
+xx
+address = 60, data = xx
+xx
+address = 61, data = xx
+xx
+address = 62, data = xx
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'memory_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 707.730 ; gain = 0.168
+run 10 us
+run 10 us
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'memory_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj memory_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+WARNING: [VRFC 10-2379] empty port in module declaration [D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v:44]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sim_1/new/memory_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a98c70b79539466491076664c6d779e5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot memory_tb_behav xil_defaultlib.memory_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.memory_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot memory_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "memory_tb_behav -key {Behavioral:sim_1:Functional:memory_tb} -tclbatch {memory_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source memory_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+address = 00, data = 62
+62
+62
+address = 01, data = 7a
+7a
+address = 02, data = 74
+74
+address = 03, data = 40
+40
+address = 04, data = 35
+35
+address = 05, data = 30
+30
+address = 06, data = 36
+36
+address = 07, data = 20
+20
+address = 08, data = 30
+30
+address = 09, data = 33
+33
+address = 0a, data = 36
+36
+address = 0b, data = 20
+20
+address = 0c, data = 31
+31
+address = 0d, data = 31
+31
+address = 0e, data = 32
+32
+address = 0f, data = 74
+74
+address = 10, data = 7f
+7f
+address = 11, data = 0c
+0c
+address = 12, data = 32
+32
+address = 13, data = 39
+39
+address = 14, data = 4b
+4b
+address = 15, data = 32
+32
+address = 16, data = 39
+39
+address = 17, data = 37
+37
+address = 18, data = 31
+31
+address = 19, data = 39
+39
+address = 1a, data = 34
+34
+address = 1b, data = 74
+74
+address = 1c, data = 2b
+2b
+address = 1d, data = 34
+34
+address = 1e, data = 38
+38
+address = 1f, data = 35
+35
+address = 20, data = 30
+30
+address = 21, data = 34
+34
+address = 22, data = 37
+37
+address = 23, data = 31
+31
+address = 24, data = 32
+32
+address = 25, data = 33
+33
+address = 26, data = 34
+34
+address = 27, data = 38
+38
+address = 28, data = 2c
+2c
+address = 29, data = 3e
+3e
+address = 2a, data = 76
+76
+address = 2b, data = 7f
+7f
+address = 2c, data = 27
+27
+address = 2d, data = 00
+00
+address = 2e, data = 0d
+0d
+address = 2f, data = 38
+38
+address = 30, data = 37
+37
+address = 31, data = 20
+20
+address = 32, data = 31
+31
+address = 33, data = 30
+30
+address = 34, data = 31
+31
+address = 35, data = 30
+30
+address = 36, data = 20
+20
+address = 37, data = 31
+31
+address = 38, data = 33
+33
+address = 39, data = 39
+39
+address = 3a, data = 37
+37
+address = 3b, data = 20
+20
+address = 3c, data = 30
+30
+address = 3d, data = 30
+30
+address = 3e, data = 35
+35
+address = 3f, data = 35
+35
+address = 40, data = 30
+30
+address = 41, data = 30
+30
+address = 42, data = 32
+32
+address = 43, data = 32
+32
+address = 44, data = 20
+20
+address = 45, data = 32
+32
+address = 46, data = 31
+31
+address = 47, data = 30
+30
+address = 48, data = 30
+30
+address = 49, data = 20
+20
+address = 4a, data = 30
+30
+address = 4b, data = 30
+30
+address = 4c, data = 30
+30
+address = 4d, data = 30
+30
+address = 4e, data = 2d
+2d
+address = 4f, data = 56
+56
+address = 50, data = 45
+45
+address = 51, data = 0a
+0a
+address = 52, data = 40
+40
+address = 53, data = 34
+34
+address = 54, data = 35
+35
+address = 55, data = 2a
+2a
+address = 56, data = 0a
+0a
+address = 57, data = 34
+34
+address = 58, data = 35
+35
+address = 59, data = 38
+38
+address = 5a, data = 32
+32
+address = 5b, data = 36
+36
+address = 5c, data = 38
+38
+address = 5d, data = 39
+39
+address = 5e, data = 36
+36
+address = 5f, data = 34
+34
+address = 60, data = 34
+34
+address = 61, data = 31
+31
+address = 62, data = 0a
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'memory_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 708.914 ; gain = 0.000
+set_property top StateMachine_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'StateMachine_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj StateMachine_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/NumberChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NumberChecker
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+WARNING: [VRFC 10-3380] identifier 'state' is used before its declaration [D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v:46]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sim_1/new/StateMachine_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a98c70b79539466491076664c6d779e5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot StateMachine_tb_behav xil_defaultlib.StateMachine_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.NumberChecker
+Compiling module xil_defaultlib.StateMachine
+Compiling module xil_defaultlib.StateMachine_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot StateMachine_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/StateMachine_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Jun  8 16:52:49 2021...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "StateMachine_tb_behav -key {Behavioral:sim_1:Functional:StateMachine_tb} -tclbatch {StateMachine_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source StateMachine_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+IDLE: Number = 35, index =          5, is_number = 1, counter =           1
+CHECKER: Number = 30, index =          6, is_number = 1, counter =           2
+CHECKER: Number = 36, index =          7, is_number = 1, counter =           3
+CHECKER: Special char = 20, index =          8, is_number = 0, counter =           4
+CHECKER: Number = 30, index =          9, is_number = 1, counter =           4
+CHECKER: Number = 33, index =         10, is_number = 1, counter =           5
+CHECKER: Number = 36, index =         11, is_number = 1, counter =           6
+CHECKER: Special char = 20, index =         12, is_number = 0, counter =           7
+CHECKER: Number = 31, index =         13, is_number = 1, counter =           7
+CHECKER: Number = 31, index =         13, is_number = 1, counter =           8
+CHECKER: Number = 32, index =         14, is_number = 1, counter =           9
+IDLE: Number = 32, index =         18, is_number = 1, counter =           1
+CHECKER: Number = 39, index =         19, is_number = 1, counter =           2
+IDLE: Number = 32, index =         21, is_number = 1, counter =           1
+CHECKER: Number = 39, index =         22, is_number = 1, counter =           2
+CHECKER: Number = 37, index =         23, is_number = 1, counter =           3
+CHECKER: Number = 31, index =         24, is_number = 1, counter =           4
+CHECKER: Number = 39, index =         25, is_number = 1, counter =           5
+CHECKER: Number = 34, index =         26, is_number = 1, counter =           6
+IDLE: Number = 34, index =         29, is_number = 1, counter =           1
+CHECKER: Number = 38, index =         30, is_number = 1, counter =           2
+CHECKER: Number = 35, index =         31, is_number = 1, counter =           3
+CHECKER: Number = 30, index =         32, is_number = 1, counter =           4
+CHECKER: Number = 34, index =         33, is_number = 1, counter =           5
+CHECKER: Number = 37, index =         34, is_number = 1, counter =           6
+CHECKER: Number = 31, index =         35, is_number = 1, counter =           7
+CHECKER: Number = 32, index =         36, is_number = 1, counter =           8
+CHECKER: Number = 33, index =         37, is_number = 1, counter =           9
+CHECKER: Number = 34, index =         38, is_number = 1, counter =          10
+CHECKER: Number = 38, index =         39, is_number = 1, counter =          11
+IDLE: Number = 38, index =         47, is_number = 1, counter =           1
+CHECKER: Number = 37, index =         48, is_number = 1, counter =           2
+CHECKER: Special char = 20, index =         49, is_number = 0, counter =           3
+CHECKER: Number = 31, index =         50, is_number = 1, counter =           3
+CHECKER: Number = 30, index =         51, is_number = 1, counter =           4
+CHECKER: Number = 31, index =         52, is_number = 1, counter =           5
+CHECKER: Number = 30, index =         53, is_number = 1, counter =           6
+CHECKER: Special char = 20, index =         54, is_number = 0, counter =           7
+CHECKER: Number = 31, index =         55, is_number = 1, counter =           7
+CHECKER: Number = 33, index =         56, is_number = 1, counter =           8
+CHECKER: Number = 39, index =         57, is_number = 1, counter =           9
+CHECKER: Number = 37, index =         58, is_number = 1, counter =          10
+CHECKER: Special char = 20, index =         59, is_number = 0, counter =          11
+CHECKER: Number = 30, index =         60, is_number = 1, counter =          11
+CHECKER: Number = 30, index =         60, is_number = 1, counter =          12
+CHECKER: Number = 35, index =         61, is_number = 1, counter =          13
+CHECKER: Number = 35, index =         61, is_number = 1, counter =          14
+CHECKER: Number = 30, index =         62, is_number = 1, counter =          15
+CHECKER: Number = 30, index =         62, is_number = 1, counter =          16
+CHECKER: Number = 32, index =         63, is_number = 1, counter =          17
+CHECKER: Number = 32, index =         63, is_number = 1, counter =          18
+CHECKER: Special char = 20, index =         64, is_number = 0, counter =          19
+CHECKER: Number = 32, index =         65, is_number = 1, counter =          19
+CHECKER: Number = 31, index =         66, is_number = 1, counter =          20
+CHECKER: Number = 30, index =         67, is_number = 1, counter =          21
+CHECKER: Number = 30, index =         67, is_number = 1, counter =          22
+CHECKER: Special char = 20, index =         68, is_number = 0, counter =          23
+CHECKER: Number = 30, index =         69, is_number = 1, counter =          23
+CHECKER: Number = 30, index =         69, is_number = 1, counter =          24
+CHECKER: Number = 30, index =         69, is_number = 1, counter =          25
+CHECKER: Number = 30, index =         69, is_number = 1, counter =          26
+IDLE: Number = 34, index =         75, is_number = 1, counter =           1
+CHECKER: Number = 35, index =         76, is_number = 1, counter =           2
+IDLE: Number = 34, index =         79, is_number = 1, counter =           1
+CHECKER: Number = 35, index =         80, is_number = 1, counter =           2
+CHECKER: Number = 38, index =         81, is_number = 1, counter =           3
+CHECKER: Number = 32, index =         82, is_number = 1, counter =           4
+CHECKER: Number = 36, index =         83, is_number = 1, counter =           5
+CHECKER: Number = 38, index =         84, is_number = 1, counter =           6
+CHECKER: Number = 39, index =         85, is_number = 1, counter =           7
+CHECKER: Number = 36, index =         86, is_number = 1, counter =           8
+CHECKER: Number = 34, index =         87, is_number = 1, counter =           9
+CHECKER: Number = 34, index =         87, is_number = 1, counter =          10
+CHECKER: Number = 31, index =         88, is_number = 1, counter =          11
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'StateMachine_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 710.543 ; gain = 1.629
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 736.051 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'StateMachine_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj StateMachine_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/NumberChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NumberChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+WARNING: [VRFC 10-2379] empty port in module declaration [D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/memory.v:44]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2458] undeclared symbol is_space, assumed default net type wire [D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v:45]
+WARNING: [VRFC 10-3380] identifier 'state' is used before its declaration [D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v:50]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto a98c70b79539466491076664c6d779e5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot StateMachine_tb_behav xil_defaultlib.StateMachine_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.memory
+Compiling module xil_defaultlib.NumberChecker
+Compiling module xil_defaultlib.StateMachine
+Compiling module xil_defaultlib.StateMachine_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot StateMachine_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 736.051 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "StateMachine_tb_behav -key {Behavioral:sim_1:Functional:StateMachine_tb} -tclbatch {StateMachine_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source StateMachine_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+IDLE: Number = 35, index =          5, is_number = 1, counter =           1
+CHECKER: Number = 30, index =          6, is_number = 1, counter =           2
+CHECKER: Number = 36, index =          7, is_number = 1, counter =           3
+CHECKER: Special char = 20, index =          8, is_number = 0, counter =           4
+CHECKER: Number = 30, index =          9, is_number = 1, counter =           4
+CHECKER: Number = 33, index =         10, is_number = 1, counter =           5
+CHECKER: Number = 36, index =         11, is_number = 1, counter =           6
+CHECKER: Special char = 20, index =         12, is_number = 0, counter =           7
+CHECKER: Number = 31, index =         13, is_number = 1, counter =           7
+CHECKER: Number = 31, index =         13, is_number = 1, counter =           8
+CHECKER: Number = 32, index =         14, is_number = 1, counter =           9
+IDLE: Number = 32, index =         18, is_number = 1, counter =           1
+CHECKER: Number = 39, index =         19, is_number = 1, counter =           2
+IDLE: Number = 32, index =         21, is_number = 1, counter =           1
+CHECKER: Number = 39, index =         22, is_number = 1, counter =           2
+CHECKER: Number = 37, index =         23, is_number = 1, counter =           3
+CHECKER: Number = 31, index =         24, is_number = 1, counter =           4
+CHECKER: Number = 39, index =         25, is_number = 1, counter =           5
+CHECKER: Number = 34, index =         26, is_number = 1, counter =           6
+IDLE: Number = 34, index =         29, is_number = 1, counter =           1
+CHECKER: Number = 38, index =         30, is_number = 1, counter =           2
+CHECKER: Number = 35, index =         31, is_number = 1, counter =           3
+CHECKER: Number = 30, index =         32, is_number = 1, counter =           4
+CHECKER: Number = 34, index =         33, is_number = 1, counter =           5
+CHECKER: Number = 37, index =         34, is_number = 1, counter =           6
+CHECKER: Number = 31, index =         35, is_number = 1, counter =           7
+CHECKER: Number = 32, index =         36, is_number = 1, counter =           8
+CHECKER: Number = 33, index =         37, is_number = 1, counter =           9
+CHECKER: Number = 34, index =         38, is_number = 1, counter =          10
+CHECKER: Number = 38, index =         39, is_number = 1, counter =          11
+IDLE: Number = 38, index =         47, is_number = 1, counter =           1
+CHECKER: Number = 37, index =         48, is_number = 1, counter =           2
+CHECKER: Special char = 20, index =         49, is_number = 0, counter =           3
+CHECKER: Number = 31, index =         50, is_number = 1, counter =           3
+CHECKER: Number = 30, index =         51, is_number = 1, counter =           4
+CHECKER: Number = 31, index =         52, is_number = 1, counter =           5
+CHECKER: Number = 30, index =         53, is_number = 1, counter =           6
+CHECKER: Special char = 20, index =         54, is_number = 0, counter =           7
+CHECKER: Number = 31, index =         55, is_number = 1, counter =           7
+CHECKER: Number = 33, index =         56, is_number = 1, counter =           8
+CHECKER: Number = 39, index =         57, is_number = 1, counter =           9
+CHECKER: Number = 37, index =         58, is_number = 1, counter =          10
+CHECKER: Special char = 20, index =         59, is_number = 0, counter =          11
+CHECKER: Number = 30, index =         60, is_number = 1, counter =          11
+CHECKER: Number = 30, index =         60, is_number = 1, counter =          12
+CHECKER: Number = 35, index =         61, is_number = 1, counter =          13
+CHECKER: Number = 35, index =         61, is_number = 1, counter =          14
+CHECKER: Number = 30, index =         62, is_number = 1, counter =          15
+CHECKER: Number = 30, index =         62, is_number = 1, counter =          16
+CHECKER: Number = 32, index =         63, is_number = 1, counter =          17
+CHECKER: Number = 32, index =         63, is_number = 1, counter =          18
+CHECKER: Special char = 20, index =         64, is_number = 0, counter =          19
+CHECKER: Number = 32, index =         65, is_number = 1, counter =          19
+CHECKER: Number = 31, index =         66, is_number = 1, counter =          20
+CHECKER: Number = 30, index =         67, is_number = 1, counter =          21
+CHECKER: Number = 30, index =         67, is_number = 1, counter =          22
+CHECKER: Special char = 20, index =         68, is_number = 0, counter =          23
+CHECKER: Number = 30, index =         69, is_number = 1, counter =          23
+CHECKER: Number = 30, index =         69, is_number = 1, counter =          24
+CHECKER: Number = 30, index =         69, is_number = 1, counter =          25
+CHECKER: Number = 30, index =         69, is_number = 1, counter =          26
+IDLE: Number = 34, index =         75, is_number = 1, counter =           1
+CHECKER: Number = 35, index =         76, is_number = 1, counter =           2
+IDLE: Number = 34, index =         79, is_number = 1, counter =           1
+CHECKER: Number = 35, index =         80, is_number = 1, counter =           2
+CHECKER: Number = 38, index =         81, is_number = 1, counter =           3
+CHECKER: Number = 32, index =         82, is_number = 1, counter =           4
+CHECKER: Number = 36, index =         83, is_number = 1, counter =           5
+CHECKER: Number = 38, index =         84, is_number = 1, counter =           6
+CHECKER: Number = 39, index =         85, is_number = 1, counter =           7
+CHECKER: Number = 36, index =         86, is_number = 1, counter =           8
+CHECKER: Number = 34, index =         87, is_number = 1, counter =           9
+CHECKER: Number = 34, index =         87, is_number = 1, counter =          10
+CHECKER: Number = 31, index =         88, is_number = 1, counter =          11
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'StateMachine_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 736.051 ; gain = 0.000

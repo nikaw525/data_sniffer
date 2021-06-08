@@ -52,7 +52,7 @@ reg [7:0] mem [0:255];
 assign data = mem[address];
 
 initial begin
-   $readmemh("C:\\Users\\rzesz\\Desktop\\Coding\\FPGA\\Data_sniffer_v2\\Data_sniffer_v2.ip_user_files\\ASCII_hex.dat", mem);
+   $readmemh("D:\\Na_uczelnie\\Magisterka\\Semestr_1\\SDUP\\Project\\repo\\Data_sniffer_v2\\ASCII_hex.dat", mem);
 end
 
 endmodule 
