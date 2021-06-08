@@ -82,7 +82,7 @@ begin
         is_other_nxt = 0;
         character_nxt = character_in;
     end
-    else if(character_in == 7'h2B)
+    else if(character_in == 7'h2B | character_in == 7'h2b)
     begin
         is_plus_nxt = 1;
         is_space_nxt = 0;
@@ -91,7 +91,7 @@ begin
         is_other_nxt = 0;
         character_nxt = character_in;
     end
-    else if(character_in == 7'h2D)
+    else if(character_in == 7'h2D | character_in == 7'h2d)
     begin
         is_dash_nxt = 1;
         is_plus_nxt = 0;

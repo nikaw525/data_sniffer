@@ -52,7 +52,7 @@ NumberChecker num_1 (.clk(clk),
 assign state_out = state;
 
 //FSM
-enum {IDLE=0, NUMBER_CHECK, PHONE_CHEKC, ACCOUNT_NR} state;
+enum {IDLE=0, NUMBER_CHECK, PHONE_NR_1, PHONE_NR_2, ACCOUNT_NR} state;
 
 always_ff @(posedge clk) begin: fsm
         case(state)
@@ -69,7 +69,7 @@ always_ff @(posedge clk) begin: fsm
                         else if(is_plus == 1'b1) begin
                             start_index <= index;
                             counter <= counter + 1;
-                            state <= PHONE_CHEKC;
+                            state <= PHONE_NR_1;
                         end                        
                     end
                  end
@@ -94,15 +94,15 @@ always_ff @(posedge clk) begin: fsm
                         state <= IDLE; 
                         
                     end
-                    else if(is_space == 1'b1 & counter == 4) begin                            
+                    else if((is_space == 1'b1 | is_dash == 1'b1) & counter == 4) begin                            
                             counter <= counter + 1;
-                            state <= PHONE_CHEKC;
+                            state <= PHONE_NR_2;
                     end
                     else if(is_space == 1'b1 & counter == 3) begin
                         state <= ACCOUNT_NR;
                         counter <= counter + 1;
                         $display("CHECKER: Special char = %h, index = %d, is_number = %h, counter = %d",output_char,  index, is_number, counter);
-                    end 
+                    end                    
                     else if(is_number == 1'b1) begin
                         $display("CHECKER: Number = %h, index = %d, is_number = %h, counter = %d",output_char,  index, is_number, counter);
                         counter <= counter + 1;
@@ -112,14 +112,7 @@ always_ff @(posedge clk) begin: fsm
                         state <= IDLE;
                     end   
                 end
-                
-                PHONE_CHEKC: begin
-                    if(is_number == 1'b1) begin
-                        counter <= counter + 1;
-                        
-                    end                    
-                end
-                
+                                
                 ACCOUNT_NR: begin
                     if(is_number == 1'b1 
                     & (counter == 4 | counter == 5 | counter == 6 | counter == 7 | counter == 9 | counter == 10 
@@ -128,8 +121,7 @@ always_ff @(posedge clk) begin: fsm
                     | counter == 26 | counter == 27 | counter == 29 | counter == 30 | counter == 31 | counter == 32) 
                     | (is_space == 1'b1 & (counter == 8 | counter == 13 | counter == 18 | counter ==  23 | counter == 28)))begin
                         counter <= counter + 1;
-                        state <= ACCOUNT_NR;
-                    
+                        state <= ACCOUNT_NR;                    
                     end
                     else if(counter == 33) begin
                         //account_nr
@@ -141,6 +133,24 @@ always_ff @(posedge clk) begin: fsm
                         counter = 1;
                         state <= IDLE;
                     end                    
+                end
+                
+                PHONE_NR_2: begin
+                    if((is_number == 1'b1 & (counter == 5 | counter == 6 | counter == 7 | counter == 9 | counter == 10 | counter == 11))
+                    || ((is_dash == 1'b1 | is_space == 1'b1) & (counter == 4 | counter == 8)))begin
+                        counter <= counter + 1;
+                        state <= PHONE_NR_2;
+                    end
+                    else if(counter == 12) begin
+                        //phone_nr
+                        $display("Phone number, index = %d", index);
+                        state <= IDLE;
+                        counter = 1;
+                    end
+                    else begin
+                        counter = 1;
+                        state <= IDLE;
+                    end  
                 end
            endcase
  end: fsm
