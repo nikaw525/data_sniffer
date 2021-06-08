@@ -71,14 +71,24 @@ always_ff @(posedge clk) begin: fsm
                             counter <= counter + 1;
                             state <= PHONE_CHEKC;
                         end
+                        else if(is_space == 1'b1 & counter == 4) begin                            
+                            counter <= counter + 1;
+                            state <= PHONE_CHEKC;
+                        end
                     end
                  end
                  
-                 NUMBER_CHECK: begin                                     
-                    if(is_other == 1'b1 & counter == 11) begin
+                 NUMBER_CHECK: begin  
+                    if(is_other == 1'b1 & counter == 10) begin
+                        //phone_nr
+                        $display("Phone number, index = %d", index);
+                    end                                   
+                    if(is_other == 1'b1 & counter == 12) begin
+                        $display("Pesel number, index = %d", index);
                         //pesel
                     end
-                    else if(is_other == 1'b1 & counter == 26) begin
+                    else if(is_other == 1'b1 & counter == 27) begin
+                        $display("Account number, index = %d", index);
                         //account_nr
                     end
                     if(is_number == 1'b1) begin
@@ -98,9 +108,29 @@ always_ff @(posedge clk) begin: fsm
                         counter <= counter + 1;
                         
                     end                    
-                end 
+                end
+                
                 ACCOUNT_NR: begin
+                    if(is_number == 1'b1 
+                    & (counter == 4 | counter == 5 | counter == 6 | counter == 7 | counter == 9 | counter == 10 
+                    | counter == 11 | counter == 12 | counter == 14 | counter == 15 | counter == 16 | counter == 17 |
+                    | counter == 19 | counter == 20 | counter == 21 | counter == 22 | counter == 24 | counter == 25  
+                    | counter == 26 | counter == 27 | counter == 29 | counter == 30 | counter == 31 | counter == 32) 
+                    | (is_space == 1'b1 & (counter == 8 | counter == 13 | counter == 18 | counter ==  23 | counter == 28)))begin
+                        counter <= counter + 1;
+                        state <= ACCOUNT_NR;
                     
+                    end
+                    else if(counter == 32) begin
+                        //account_nr
+                        $display("Account number, index = %d", index);
+                        state <= IDLE;
+                        counter = 1;
+                    end
+                    else begin
+                        counter = 1;
+                        state <= IDLE;
+                    end                    
                 end
            endcase
  end: fsm
