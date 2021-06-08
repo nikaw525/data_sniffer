@@ -120,3 +120,448 @@ run all
 run all
 run all
 run all
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 82
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 121
+run all
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 105
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 104
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+run all
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 60
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+step
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+step
+run all
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 78
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+run all
+run all
+step
+step
+step
+step
+step
+step
+step
+run all
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+run all
+run all
+step
+step
+run all
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 58
+step
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+step
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+step
+step
+step
+step
+run all
+step
+step
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 133
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+step
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 58
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 60
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 105
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 133
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 123
+run all
+step
+step
+step
+run all
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 133
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 129
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 130
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 135
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 136
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 137
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 140
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 141
+run all
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+step
+step
+step
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+run all
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 123
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 129
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 130
+run all
+step
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+step
+step
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+run all
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 77
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+step
+step
+step
+add_bp {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} 58
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+step
+step
+run all
+step
+step
+step
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+run all
+step
+step
+step
+remove_bps -file {D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.srcs/sources_1/new/StateMachine.v} -line 58
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+close_sim
+launch_simulation
+source StateMachine_tb.tcl
+step

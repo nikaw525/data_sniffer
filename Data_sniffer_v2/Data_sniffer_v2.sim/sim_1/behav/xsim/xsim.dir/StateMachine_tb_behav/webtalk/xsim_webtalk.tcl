@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/StateMachine_tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Tue Jun  8 19:14:31 2021" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Tue Jun  8 19:59:16 2021" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2018.3 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2405991" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "05a264e6-df6a-406d-96a5-163cc1e60720" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "a98c70b79539466491076664c6d779e5" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "68" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "99" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz" -context "user_environment"
@@ -37,7 +37,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "29" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "5" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip unimacro_ver unisims_ver " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "0.53_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "43684_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 1999912952 -regid "" -xml D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/StateMachine_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/StateMachine_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/StateMachine_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "0.56_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "43632_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 912468469 -regid "" -xml D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/StateMachine_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/StateMachine_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/StateMachine_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
