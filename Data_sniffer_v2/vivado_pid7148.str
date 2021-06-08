@@ -807,3 +807,279 @@ dismissDialog("Run Simulation"); // e (cp)
 // HMemoryUtils.trashcanNow. Engine heap size: 710 MB. GUI used memory: 80 MB. Current time: 6/8/21, 5:32:35 PM CEST
 // Elapsed time: 17 seconds
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "StateMachine.v", 0); // k (j, cp)
+// Elapsed time: 178 seconds
+selectCodeEditor("StateMachine.v", 182, 144); // cl (w, cp)
+// Elapsed time: 21 seconds
+selectCodeEditor("StateMachine.v", 207, 212); // cl (w, cp)
+// Elapsed time: 22 seconds
+selectCodeEditor("StateMachine.v", 388, 230); // cl (w, cp)
+// Elapsed time: 45 seconds
+selectCodeEditor("StateMachine.v", 294, 229); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 388, 237); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 229, 35); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 229, 35, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("StateMachine.v", 415, 175); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("StateMachine.v", 249, 88); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 249, 88, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "StateMachine.v", 'c'); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 274, 230); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 276, 232, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "StateMachine.v", 'v'); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 118, 97); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 136, 264); // cl (w, cp)
+typeControlKey((HResource) null, "StateMachine.v", 'v'); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 257, 229); // cl (w, cp)
+// Elapsed time: 654 seconds
+selectCodeEditor("StateMachine.v", 308, 123); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 710 MB. GUI used memory: 74 MB. Current time: 6/8/21, 6:02:38 PM CEST
+// Elapsed time: 856 seconds
+selectCodeEditor("StateMachine.v", 514, 150); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 516, 141); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 516, 141, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 114 seconds
+selectCodeEditor("StateMachine.v", 201, 249); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("StateMachine.v", 271, 197); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("StateMachine.v", 283, 93); // cl (w, cp)
+// Elapsed time: 33 seconds
+selectCodeEditor("StateMachine.v", 216, 199); // cl (w, cp)
+// Elapsed time: 105 seconds
+selectCodeEditor("StateMachine.v", 220, 190); // cl (w, cp)
+// Elapsed time: 60 seconds
+selectCodeEditor("StateMachine.v", 337, 246); // cl (w, cp)
+// Elapsed time: 54 seconds
+selectCodeEditor("StateMachine.v", 215, 161); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 215, 161, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("StateMachine.v", 315, 244); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 315, 244, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("StateMachine.v", 346, 214); // cl (w, cp)
+// Elapsed time: 81 seconds
+selectCodeEditor("StateMachine.v", 312, 217); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 312, 217, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 133 seconds
+selectCodeEditor("StateMachine.v", 84, 77); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 84, 77, false, false, false, false, true); // cl (w, cp) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 45 seconds
+selectCodeEditor("StateMachine.v", 510, 457); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 359, 466); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 278, 453); // cl (w, cp)
+// Elapsed time: 126 seconds
+selectCodeEditor("StateMachine.v", 78, 282); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 78, 282, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 130 seconds
+selectCodeEditor("StateMachine.v", 342, 369); // cl (w, cp)
+// Elapsed time: 108 seconds
+selectCodeEditor("StateMachine.v", 370, 366); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 370, 366, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("StateMachine.v", 383, 433); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 503, 367); // cl (w, cp)
+// Elapsed time: 21 seconds
+selectCodeEditor("StateMachine.v", 239, 384); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 257, 382); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 257, 382, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "StateMachine.v", 'c'); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 274, 144); // cl (w, cp)
+typeControlKey((HResource) null, "StateMachine.v", 'v'); // cl (w, cp)
+// Elapsed time: 17 seconds
+selectCodeEditor("StateMachine.v", 166, 517); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 164, 515); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 146, 535); // cl (w, cp)
+typeControlKey((HResource) null, "StateMachine.v", 'v'); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 248, 550); // cl (w, cp)
+// Elapsed time: 97 seconds
+selectCodeEditor("StateMachine.v", 320, 572); // cl (w, cp)
+// Elapsed time: 55 seconds
+selectCodeEditor("StateMachine.v", 393, 569); // cl (w, cp)
+// Elapsed time: 378 seconds
+selectCodeEditor("StateMachine.v", 386, 566); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 710 MB. GUI used memory: 74 MB. Current time: 6/8/21, 6:32:38 PM CEST
+// Elapsed time: 159 seconds
+selectCodeEditor("StateMachine.v", 134, 268); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 318, 352); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("StateMachine.v", 61, 84); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 58, 76); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 58, 76, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 80 seconds
+selectCodeEditor("StateMachine.v", 194, 539); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 201, 296); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("StateMachine.v", 248, 312); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 264, 322); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 281, 310); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 310, 317); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("StateMachine.v", 200, 336); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 178, 247); // cl (w, cp)
+// Elapsed time: 31 seconds
+selectCodeEditor("StateMachine.v", 164, 243); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 149, 206); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 220, 191); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 168, 366); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 147, 387); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 264, 194); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NumberChecker.v", 2); // k (j, cp)
+selectCodeEditor("NumberChecker.v", 156, 230); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "StateMachine.v", 0); // k (j, cp)
+typeControlKey((HResource) null, "StateMachine.v", 'v'); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 268, 198); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 163, 226); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("StateMachine.v", 245, 228); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 273, 233); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("StateMachine.v", 180, 268); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 168, 279); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 147, 212); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 9, 213); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 135, 295); // cl (w, cp)
+// Elapsed time: 17 seconds
+selectCodeEditor("StateMachine.v", 144, 276); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 168, 265); // cl (w, cp)
+typeControlKey((HResource) null, "StateMachine.v", 'c'); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 141, 282); // cl (w, cp)
+typeControlKey((HResource) null, "StateMachine.v", 'v'); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 382, 281); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 220, 299); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 257, 191); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 179, 303); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 142, 261); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 184, 302); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 142, 261); // cl (w, cp)
+// Elapsed time: 23 seconds
+selectCodeEditor("StateMachine.v", 357, 352); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("StateMachine.v", 375, 390); // cl (w, cp)
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NumberChecker.v", 2); // k (j, cp)
+selectCodeEditor("NumberChecker.v", 86, 401); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 88, 418); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 88, 418, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "NumberChecker.v", 'c'); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 110, 410); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 187, 331); // cl (w, cp)
+typeControlKey((HResource) null, "NumberChecker.v", 'v'); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 182, 197); // cl (w, cp)
+typeControlKey((HResource) null, "NumberChecker.v", 'v'); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 184, 373); // cl (w, cp)
+typeControlKey((HResource) null, "NumberChecker.v", 'c'); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 185, 207); // cl (w, cp)
+typeControlKey((HResource) null, "NumberChecker.v", 'v'); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 175, 125); // cl (w, cp)
+typeControlKey((HResource) null, "NumberChecker.v", 'v'); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 231, 198); // cl (w, cp)
+typeControlKey((HResource) null, "NumberChecker.v", 'v'); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 145, 158); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 168, 213); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 30, 222); // cl (w, cp)
+selectCodeEditor("NumberChecker.v", 287, 327); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "StateMachine.v", 0); // k (j, cp)
+selectCodeEditor("StateMachine.v", 178, 160); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 184, 160); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 215, 214); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 227, 162); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 324, 219); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 286, 162); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 280, 232); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("StateMachine.v", 60, 94); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("StateMachine.v", 408, 358); // cl (w, cp)
+selectCodeEditor("StateMachine.v", 88, 352); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NumberChecker.v", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "StateMachine.v", 0); // k (j, cp)
+selectCodeEditor("StateMachine.v", 139, 507); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NumberChecker.v", 2); // k (j, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bx (cp):  Close : addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (C, I)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// e (cp):  Run Simulation : addNotify
+dismissDialog("Close"); // bx (cp)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'StateMachine_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj StateMachine_tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot StateMachine_tb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "StateMachine_tb_behav -key {Behavioral:sim_1:Functional:StateMachine_tb} -tclbatch {StateMachine_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 710 MB. GUI used memory: 84 MB. Current time: 6/8/21, 6:42:27 PM CEST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source StateMachine_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'StateMachine_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 736.051 ; gain = 0.000 
+// 'd' command handler elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e (cp)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// HMemoryUtils.trashcanNow. Engine heap size: 710 MB. GUI used memory: 75 MB. Current time: 6/8/21, 6:42:32 PM CEST

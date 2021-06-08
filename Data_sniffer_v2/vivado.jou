@@ -42,3 +42,6 @@ source StateMachine_tb.tcl
 close_sim
 launch_simulation
 source StateMachine_tb.tcl
+close_sim
+launch_simulation
+source StateMachine_tb.tcl

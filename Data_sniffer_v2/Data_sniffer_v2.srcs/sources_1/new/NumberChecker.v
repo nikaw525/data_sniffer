@@ -29,7 +29,8 @@ module NumberChecker(
     output reg is_number,
     output reg is_space,
     output reg is_plus,
-    output reg is_dash
+    output reg is_dash,
+    output reg is_other
     );
     
     localparam ASCII_NUMBER_0 = 8'h30, ASCII_NUMBER_9 = 8'h39;
@@ -39,6 +40,7 @@ module NumberChecker(
     reg is_space_nxt;
     reg is_plus_nxt;
     reg is_dash_nxt;
+    reg is_other_nxt;
     reg [7:0] character_nxt; 
     
 always @(posedge reset or posedge clk)
@@ -56,6 +58,7 @@ begin
         is_space <= is_space_nxt;
         is_plus <= is_plus_nxt;
         is_dash <= is_dash_nxt;
+        is_other <= is_other_nxt;
     end
 end
 
@@ -67,6 +70,7 @@ begin
         is_space_nxt = 0;
         is_plus_nxt = 0;
         is_dash_nxt = 0;
+        is_other_nxt = 0;
         character_nxt = character_in;
     end
     else if(character_in == 7'h20)
@@ -75,6 +79,7 @@ begin
         is_number_nxt = 0;
         is_plus_nxt = 0;
         is_dash_nxt = 0;
+        is_other_nxt = 0;
         character_nxt = character_in;
     end
     else if(character_in == 7'h2B)
@@ -83,6 +88,7 @@ begin
         is_space_nxt = 0;
         is_number_nxt = 0;        
         is_dash_nxt = 0;
+        is_other_nxt = 0;
         character_nxt = character_in;
     end
     else if(character_in == 7'h2D)
@@ -90,11 +96,13 @@ begin
         is_dash_nxt = 1;
         is_plus_nxt = 0;
         is_space_nxt = 0;
-        is_number_nxt = 0;      
+        is_number_nxt = 0; 
+        is_other_nxt = 0;     
         character_nxt = character_in;
     end
     else
     begin 
+        is_other_nxt = 1;
         is_number_nxt = 0;
         is_space_nxt = 0;       
         is_plus_nxt = 0;
