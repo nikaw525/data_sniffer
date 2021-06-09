@@ -44,15 +44,14 @@ data,
 );
 
 input [7:0] address;
-input [7:0] data;
+output [7:0] data;
 
 reg [7:0] mem [0:255];
-
 
 assign data = mem[address];
 
 initial begin
-   $readmemh("D:\\Na_uczelnie\\Magisterka\\Semestr_1\\SDUP\\Project\\repo\\Data_sniffer_v2\\ASCII_hex.dat", mem);
+   $readmemh("C:\\Users\\rzesz\\Desktop\\Coding\\FPGA\\data_sniffer\\Data_sniffer_v2\\ASCII_hex.dat", mem);
 end
 
 endmodule 

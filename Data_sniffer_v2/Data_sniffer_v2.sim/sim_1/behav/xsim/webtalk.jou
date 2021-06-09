@@ -2,11 +2,11 @@
 # Webtalk v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Tue Jun  8 17:32:16 2021
-# Process ID: 1752
-# Current directory: D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/StateMachine_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim\webtalk.jou
+# Start of session at: Tue Jun  8 23:06:54 2021
+# Process ID: 3736
+# Current directory: C:/Users/rzesz/Desktop/Coding/FPGA/data_sniffer/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/rzesz/Desktop/Coding/FPGA/data_sniffer/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/memory_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/rzesz/Desktop/Coding/FPGA/data_sniffer/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/rzesz/Desktop/Coding/FPGA/data_sniffer/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/StateMachine_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+source C:/Users/rzesz/Desktop/Coding/FPGA/data_sniffer/Data_sniffer_v2/Data_sniffer_v2.sim/sim_1/behav/xsim/xsim.dir/memory_tb_behav/webtalk/xsim_webtalk.tcl -notrace

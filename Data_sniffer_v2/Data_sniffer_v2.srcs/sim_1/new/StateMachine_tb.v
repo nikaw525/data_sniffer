@@ -25,10 +25,11 @@ module StateMachine_tb();
 reg clock, reset;
 wire [7:0] char_in;
 
-wire state;
+wire [2:0] state;
 reg [7:0] address;
 
 integer i;
+wire [28:0] index;
 
 
 memory U(
@@ -41,7 +42,8 @@ StateMachine UU(
     clock,
     reset,
     char_in,
-    state
+    state,
+    index
 );
 
 always
@@ -56,14 +58,16 @@ end
 initial
 begin
     reset <= 1'b0;
+    address = 0;
 end 
 
-initial begin
-   address = 0;
-   for (i = 0; i < 1000; i = i +1 )begin
-       #10 address = i;
-   end
- end
-
+always@( posedge clock ) begin
+     if ( reset == 1'b0 && address < 244) begin // new value arrived
+        address <= address + 1; 
+        if(state != 1'b0) begin
+            $display("State = %h, index = %d, adres = %d", state, index, address);
+        end
+     end
+end
  
 endmodule

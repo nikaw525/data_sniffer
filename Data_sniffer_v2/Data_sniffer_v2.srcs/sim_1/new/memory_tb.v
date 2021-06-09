@@ -33,10 +33,9 @@ data    , // Data output
  
  initial begin
    address = 0;
-   #10 $monitor ("address = %h, data = %h", address, data);
-   for (i = 0; i < 99; i = i +1 )begin
+   for (i = 0; i < 1000; i = i +1 )begin
         # 5 address = i;
-        $display("%h", data); 
+        $monitor ("address = %d, data = %h", address, data);
    end
  end
  

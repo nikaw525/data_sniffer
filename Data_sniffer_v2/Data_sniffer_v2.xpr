@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="39" Path="D:/Na_uczelnie/Magisterka/Semestr_1/SDUP/Project/repo/Data_sniffer_v2/Data_sniffer_v2.xpr">
+<Project Version="7" Minor="39" Path="C:/Users/rzesz/Desktop/Coding/FPGA/data_sniffer/Data_sniffer_v2/Data_sniffer_v2.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="a98c70b79539466491076664c6d779e5"/>
@@ -32,7 +32,7 @@
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSABoardId" Val="zed"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="142"/>
+    <Option Name="WTXSimLaunchSim" Val="174"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
